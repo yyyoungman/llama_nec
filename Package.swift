@@ -40,7 +40,7 @@ let package = Package(
 //            resources: [
 //                .process("ggml-metal.metal")
 //            ],
-            publicHeadersPath: ".",
+            publicHeadersPath: "spm-headers",
             cSettings: [
                 .unsafeFlags(["-Wno-shorten-64-to-32", "-O3", "-DNDEBUG"]),
                 .define("GGML_USE_ACCELERATE"),
