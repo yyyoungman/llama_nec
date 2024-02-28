@@ -1,4 +1,4 @@
-#include "cym-test.hpp"
+#include "cym-test.h"
 #include <stdio.h>
 
 void cym_func1() {
